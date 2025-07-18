@@ -1,6 +1,6 @@
 # FASMDbgHelper
 
-**FASMDbgHelper** is a plugin for x64dbg that enables loading of FASM assembler `.fas` symbol files and imports FASM labels as comments and named labels into the current debugging session. This greatly improves usability when reverse-engineering binaries assembled with FASM.
+**FASMDbgHelper** is a plugin for x64dbg that enables loading of FASM assembler `.fas` symbol files and imports FASM labels as comments and named labels into the current debugging session. This greatly improves usability when debugging binaries assembled with FASM.
 
 > :warning: **To use the plugin, you must be paused on EIP/RIP of the process you want to import symbols for (i.e., at the entry point of the debugged module).**
 
